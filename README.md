@@ -1,5 +1,7 @@
 # LanaStudyBot
 
+[Русская версия](README_RU.md)
+
 **A working Telegram MVP for teenage educational and career decision support, built as the first user-facing module of the broader Eidos product concept.**
 
 LanaStudyBot helps teenagers move from a vague “I don’t know what fits me” to a structured first profile that can be discussed with a parent or career-guidance specialist.
