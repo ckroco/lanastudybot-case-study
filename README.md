@@ -11,6 +11,8 @@ The current version is intentionally focused: a short conversational flow, deter
 **Live Telegram bot:** https://t.me/LanaStudyMVP_bot  
 **Project channel:** https://t.me/mesto_resheniy
 
+![LanaStudyBot profile result](03_profile_result.png)
+
 > This repository is intended as a public product case study and technical overview. Production source code, real user data and proprietary scoring methodology are intentionally not published.
 
 ---
