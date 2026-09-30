@@ -89,7 +89,24 @@ When relevant, the user also receives an explanation of the additional profile.
 The cards are designed to be easy to save, share, or use as a conversation starter with a parent or specialist.
 
 ---
+## Product in action
 
+### Questionnaire flow
+![LanaStudyBot start and questionnaire](01_start_and_question.png)
+
+### Multiple-choice interaction
+![LanaStudyBot multiple-choice question](02_multi_select.png)
+
+### Visual strengths card
+![LanaStudyBot strengths card](04_strengths_card.png)
+
+### Result and next actions
+![LanaStudyBot result actions](05_result_actions.png)
+
+### Free gift after the result
+![LanaStudyBot free gift delivery](06_gift_delivery.png)
+
+---
 ## Result delivery and next step
 
 After questionnaire completion, the bot:
