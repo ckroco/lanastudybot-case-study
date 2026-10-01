@@ -339,31 +339,21 @@ The current assessment engine is intentionally deterministic because transparenc
 
 ---
 
-## Current status
+## Agentic delivery experiment
 
-The MVP currently supports:
+The first controlled AI-assisted delivery experiment created characterization tests for LanaStudyBot’s existing deterministic scoring behavior. The aim was to establish a regression baseline before future changes to this live Telegram MVP.
 
-- an end-to-end 16-question Telegram flow;
-- single- and multiple-choice interactions;
-- deterministic primary and additional profile calculation;
-- immediate visual result delivery;
-- four primary-profile result cards;
-- additional-profile explanation;
-- a human-consultation CTA;
-- questionnaire restart;
-- a separate post-result gift flow;
-- subscription verification through the Telegram Bot API;
-- free PDF delivery after successful verification;
-- storage of users and raw answers;
-- separate storage of calculated results;
-- product-event logging;
-- lightweight funnel measurement;
-- first-touch traffic-source attribution;
-- admin health/status/source checks;
-- CSV export;
-- 24/7 deployment through `systemd` on a Linux VPS.
+The responsibility model kept product decisions and acceptance under human control:
 
-The first small group of users has already provided qualitative feedback on usability, perceived result relevance, mobile readability and the usefulness of the visual cards.
+Product Owner / PM → Analyst / Planner → Implementor → Verifier → Reviewer → Product Owner / PM acceptance
+
+Implementation added one test file. Separate verification reported **16 tests passed in 0.40 seconds**, followed by a separate review. Review identified an incomplete tie-break regression case; a stronger follow-up was planned but has not been implemented.
+
+Repository-level working rules defined scope, data protection and approval boundaries. No autonomous multi-agent system was created, and no LLM was added to user-facing scoring or result generation.
+
+The experiment involved no production data, live Telegram users or deployment. It establishes a limited regression baseline, not validation of the scoring methodology.
+
+[Read the experiment record](docs/agentic-delivery/experiment-01.md).
 
 ---
 
