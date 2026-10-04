@@ -509,11 +509,6 @@ docs/images/
 ├── 10_subscription_check.png
 └── 11_gift_pdf.png
 ```
-
-Before publishing screenshots, remove or blur Telegram usernames, user IDs, email addresses, internal admin data and other personal information.
-
-The public README should show the user experience, product decisions and engineering approach without exposing the proprietary scoring model or real user data.
-
 ---
 
 ## Live product
