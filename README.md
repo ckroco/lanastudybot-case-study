@@ -516,4 +516,20 @@ docs/images/
 **Telegram bot:** https://t.me/LanaStudyMVP_bot  
 **Project channel:** https://t.me/mesto_resheniy
 
+## Deployment and adaptation options
+
+LanaStudyBot is currently deployed as a working production MVP on a Linux VPS and is designed as a modular product that can be adapted for other educational scenarios.
+
+Potential delivery options include:
+
+- branded / white-label configuration for an education centre;
+- deployment on customer-owned infrastructure;
+- deployment and maintenance as a managed service;
+- replacement of result materials, CTA flows and specialist contacts;
+- adaptation of questionnaire content and post-result scenarios for a specific organisation.
+
+The current public repository is a case study rather than a distributable product package.
+
+A customer-ready deployment package can be prepared separately and may include environment configuration, deployment instructions, service setup, storage configuration, health checks and operational documentation.
+
 > Production source code and proprietary scoring methodology are not publicly available. This repository is intended as a product case study and technical overview.
